@@ -31,9 +31,9 @@ class Ideone
 	
 	public static boolean isSubTree(Node root1, Node root2) {
 		if(root1 == null)
-			return true;
-		if(root2 == null)
 			return false;
+		if(root2 == null)
+			return true;
 		
 		if(areEqual(root1, root2))
 			return true;
